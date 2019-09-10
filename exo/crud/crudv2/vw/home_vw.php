@@ -1,0 +1,9 @@
+<?php
+session_start();
+$mdp=$_SESSION['mdps'];
+$pseudo=$_SESSION['pseudos'];
+$mdp=$_SESSION['mdp'];
+$pseudo=$_SESSION['pseudo'];
+setcookie('cookpseudo',$pseudo,time()+3600,'');
+setcookie('cookmdp',$mdp,time()+3600,'');
+var_dump($_COOKIE);

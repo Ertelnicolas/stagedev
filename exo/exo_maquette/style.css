@@ -1,0 +1,9 @@
+#tete{
+    display: flex;
+}
+.border{
+    border-block-color: grey;
+}
+#midpage{
+    display: flex;
+}
